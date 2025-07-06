@@ -1,0 +1,88 @@
+.verifyPage {
+  height: 100vh;
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc, #a18cd1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.title {
+  font-size: 1.8rem;
+  color: #4a3b7d;
+  margin-bottom: 20px;
+}
+
+.sendOtpButton {
+  padding: 10px 16px;
+  background-color: #7f9cf5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.sendOtpButton:hover {
+  background-color: #5a67d8;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 1rem;
+  color: #3b2f63;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #6f6a91;
+}
+
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #9f7aea;
+}
+
+.button {
+  padding: 12px;
+  background-color: #9f7aea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #805ad5;
+}
+
+.message {
+  margin-top: 10px;
+  color: #6b46c1;
+  font-weight: 500;
+}
